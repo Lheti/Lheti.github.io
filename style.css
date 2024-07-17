@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #CCB6FE;
+    width: 1440px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: #c8b2f8;
+    background: linear-gradient(180deg, #c8b2f8 0%, #f7b2d2 100%);
+    border-radius: 0 0 35px 35px;
+    box-shadow: 0 5px 15px #00000010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/logos/proto\ logo\ icon\ noir\ full\ copie.png');
+    background-size: contain;
+    border-radius: 100%;
+}
+
+.liensnav a {
+    color: white;
+    font-size: 33px;
+    text-shadow: 2px 1px 0 #00000095;
+    text-decoration: none;
+    font-family: "New Romantics";
+    letter-spacing: 5px;
+    padding: 0px 10px;
+    transition: 1s;
+}
+
+.liensnav a:hover {
+    letter-spacing: 8px;
+    color: #E0F9FE;
+    transition: 1s;
+}
+
+.usermenu {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.bann {
+    width: 100%;
+    height: 575px;
+    background-color: wheat;
+}
+
+.products {
+    width: 100%;
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./images/fond_etoiles_lunes.png');
+    background-repeat: repeat-x;
+    padding-top: 30px;
+}
+
+h3 {
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 1px 0 #00000095;
+    font-family: "New Romantics";
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.productsarea {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.productsbloc {
+    width: 340px;
+    height: 420px;
+    background: #ffffff;
+background: linear-gradient(180deg, #ffffff80 0%, #c7e5e380 100%);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    border: solid 1px #FFFFFF95;
+}
+
+.productsimg {
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #00000025;
+}
+
+#pins {
+    background-image: url('./images/pins/feminazgul\ \(1\).png');
+}
+
+#stickers {
+    background-image: url('./images/stickers/Lumii_20210127_134050781.jpg');
+}
+
+#punch {
+    background-image: url('./images/punch_needle/lion.png');
+}
+
+.productsbloc a {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 1px 0 #00000095;
+    font-family: "New Romantics";
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.productsbloc a:hover {
+    letter-spacing: 8px;
+    color: #FFEDD5;
+    transition: 1s;
+}
+
+footer {
+    background-color: #FEC8BC;
+}
+
+.bannfooter {
+    width: 100%;
+    height: 360px;
+    background-image: url('./images/logos/banner\ text\ logo.jpg');
+    background-size: contain;
+}
+
+.footerarea {
+    background-color: #FEC8BC;
+    height: 315px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blocui {
+    width: fit-content;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4 {
+    color: white;
+    font-size: 33px;
+    text-shadow: 2px 1px 0 #00000095;
+    font-family: "New Romantics";
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.blocui a {
+    color: black;
+    text-decoration: none;
+    font-family: "British Green";
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.blocnl {
+    width: 550px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    font-family: "British Green";
+    /* font-size: 16px; */
+    letter-spacing: 1px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly;
+    font-family: "British Green";
+    letter-spacing: 1px;
+}
+
+form button {
+    width: 100px;
+}
+
+.logoneon {
+    width: 256px;
+    height: 256px;
+    background-image: url('./images/logos/logo\ st\ blanc.png');
+    background-size: contain;
+}
