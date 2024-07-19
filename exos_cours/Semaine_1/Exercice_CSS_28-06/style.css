@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+.carre {
+    width: 100vw;
+    height: 100vh;
+}
+
+.minicarre {
+    width: 50%;
+    height: 50%;
+    background-color: purple;
+}
+
+#couleur1 {
+    background-color: gold;
+}
+
+#couleur2 {
+    background-color: indigo;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+}

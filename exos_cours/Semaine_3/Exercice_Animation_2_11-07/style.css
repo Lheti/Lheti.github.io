@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .slidercontent img {
+    width: 100%;
+} */
+
+.slider {
+    width: 565px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slidercontent {
+    width: 1719px;
+    height: 820px;
+    animation: slider 10s infinite linear alternate;
+    position: relative;
+}
+
+@keyframes slider {
+    0% {right: 0px;}
+    20% {right: 0px;}
+    25% {right: 565px;}
+    70% {right: 565px;}
+    75% {right: 1132px;}
+    100% {right: 1132px;}
+}

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    width: 345px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00000055;
+    font-family: 'Outfit';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url('./images/image-equilibrium.jpg');
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.eye {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #00fff795;
+    position: relative;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye:hover {
+    opacity: 1;
+}
+
+h2 {
+    color: white;
+    font-weight: 600;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.eth img {
+    height: 15px;
+    width: 10px;
+    margin-right: 5px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.days img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+hr {
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+}
+
+.createur {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+}
+
+.createur img {
+    width: 30px;
+    border: solid white 1px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.createur span {
+    color: white;
+    padding-left: 5px;
+}
+
+.createur span:hover {
+    color: hsl(178, 100%, 50%);
+}

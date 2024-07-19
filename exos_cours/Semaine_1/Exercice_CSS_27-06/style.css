@@ -1,0 +1,22 @@
+h1 {
+    color: indigo;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    color: orange;
+}
+
+#prenom {
+    background-color: indigo;
+}
+
+#nom {
+    background-color: blue;
+}

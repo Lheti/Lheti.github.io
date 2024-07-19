@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px 0;
+    text-align: center;
+    background-color: lightpink;
+}
+
+.corps {
+    background-color: lightblue;
+    padding: 10px;
+    width: 50%;
+    text-align: justify;
+}
+
+.corps h1, p {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+}

@@ -1,0 +1,11 @@
+.styledark {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

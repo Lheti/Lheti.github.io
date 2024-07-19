@@ -1,0 +1,524 @@
+:root {
+    --saumon: #fe786750;
+    --saumon2: #fe7867;
+    --jaune: #fad40050;
+    --jaune2: #fad400;
+    --menthe: #25564b;
+    --bleu: #19536b;
+    --turquoise: #458c7e;
+    --beton: #23303e;
+    --grisbleu: #5a636c;
+    --mauve: #818498;
+    --nuage: #a7abae;
+    --blanc: #ffffff;
+
+    --fraunces:  'Fraunces';
+    --barlow: 'Barlow';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: 1150px;
+    height: 635px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.pagesnav a {
+    color: var(--blanc);
+    font-family: var(--barlow);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: smaller;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+#con {
+    background-color: var(--blanc);
+    color: var(--beton);
+    font-family: var(--fraunces);
+    font-weight: 700;
+    text-transform:uppercase;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--blanc);
+    font-family: var(--fraunces);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 900;
+    font-size:3em;
+    padding: 50px 0;
+}
+
+.fleche {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: var(--blanc);
+    width: 100%;
+}
+
+.sixpack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height:fit-content;
+}
+
+.bloc {
+    width: 100%;
+    height: 478px;
+}
+
+#bloctrans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 130px;
+    padding-right: 80px;
+}
+
+h2 {
+    color: var(--beton);
+    font-family: var(--fraunces);
+    font-weight: 900;
+    font-size: 2em;
+}
+
+p {
+    font-family: var(--barlow);
+    color: var(--mauve);
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+.bloc a {
+    font-family: var(--fraunces);
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--beton);
+    text-decoration: none;
+    position: relative;
+    width: fit-content;
+    padding: 0 5px;
+}
+
+#bloctrans a::before {
+    width: 100%;
+    height: 10px;
+    background-color: var(--jaune);
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    border-radius: 10px;
+}
+
+#bloctrans a:hover::before {
+    background-color: var(--jaune2);
+}
+
+#blocoeuf {
+    background-image: url('./images/desktop/image-transform.jpg');
+    background-size: contain;
+}
+
+#blocrose {
+    background-image: url('./images/desktop/image-stand-out.jpg');
+    background-size: contain;
+}
+
+#blocstand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-right: 130px;
+    padding-left: 80px;
+}
+
+#blocstand a::before {
+    width: 100%;
+    height: 10px;
+    background-color: var(--saumon);
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    border-radius: 10px;
+}
+
+#blocstand a:hover::before {
+    background-color: var(--saumon2);
+}
+
+#bloccerise {
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding: 0 130px 40px;
+    text-align: center;
+    color: var(--menthe);
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: 900;
+    font-family: var(--fraunces);
+}
+
+#bloccerise p {
+    color: var(--menthe);
+}
+
+#blocclem {
+    background-image: url('./images/desktop/image-photography.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding: 0 130px 40px;
+    text-align: center;
+    color: var(--bleu);
+}
+
+#blocclem p {
+    color: var(--bleu);
+}
+
+.clients {
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.titreclients {
+    margin-bottom: 65px;
+}
+
+h4 {
+    font-size: medium;
+    font-weight: 900;
+    font-family: var(--fraunces);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--nuage);
+}
+
+.tests {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.testsbloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 280px;
+    text-align: center;
+}
+
+.desc {
+    color: var(--grisbleu);
+}
+
+.imgclients {
+    width: 57px;
+    height: 57px;
+    border-radius: 100%;
+}
+
+#emily {
+    background-image: url('./images/image-emily.jpg');
+    background-size: contain;
+}
+
+#thomas {
+    background-image: url('./images/image-thomas.jpg');
+    background-size: contain;
+}
+
+#jennie {
+    background-image: url('./images/image-jennie.jpg');
+    background-size: contain;
+}
+
+h5 {
+    font-size: 0.9em;
+    font-family: var(--fraunces);
+    font-weight: 900;
+    color: var(--beton);
+}
+
+#poste {
+    font-size: 0.8em;
+    color: var(--nuage);
+}
+
+.art {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 357px;
+}
+
+#lait {
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-size: cover;
+}
+
+#oeuf {
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+    background-size: cover;
+}
+
+#cone {
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+    background-size: cover;
+}
+
+#sucre {
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+}
+
+footer {
+    height: 280px;
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--barlow);
+    font-weight: 600;
+    padding: 60px 0px;
+}
+
+.asp {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.asp a {
+    text-decoration: none;
+    color: var(--turquoise);
+}
+
+.asp a:hover {
+    color: var(--blanc);
+}
+
+.rs {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rs a {
+    fill: #2C7566;
+}
+
+.rs a:hover {
+    fill: var(--blanc);
+}
+
+@media screen and (max-width: 376px) {
+
+    .container {
+        width: 375px;
+    }
+
+    header {
+        width: 100%;
+        height: 77vh;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: #3dbeff;
+        text-align: center;
+    }
+
+    .pagesnav {
+        display: none;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    main {
+        width: 375px;
+    }
+
+    .sixpack {
+        display: grid;
+        grid-template-columns: 375px;
+        grid-template-rows: 315px 437px 315px 437px 600px 600px;
+        width: 375px;
+        /* height: fit-content; */
+    }
+
+    #bloctrans {
+        width: 375px;
+        height: 100%;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        text-align: center;
+        margin: 0;
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #bloctrans, #blocstand p {
+        font-size: large;
+        line-height: 30px;
+    }
+
+    #bloctrans, #blocstand a {
+        font-size: medium;
+    }
+
+    #blocoeuf {
+        grid-row: 1 / 2;
+        height: 100%;
+    }
+
+    #blocrose {
+        height: 100%;
+    }
+
+    #blocstand {
+        width: 375px;
+        height: 100%;
+        text-align: center;
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #bloccerise, #blocclem {
+        height: 100%;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: top;
+        padding: 0 20px 60px 20px;
+    }
+
+    #bloccerise h3, #blocclem h3 {
+        font-size: xx-large;
+    }
+
+    #bloccerise p, #blocclem p {
+        font-size: medium;
+        font-weight: 700;
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 375px;
+        padding: 60px 0px;
+    }
+
+    .tests {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgclients {
+        width: 75px;
+        height: 75px;
+        margin-bottom: -15px;
+    }
+
+    .tests p {
+        font-size: large;
+        font-weight: 700;
+        margin: 0px -15px;
+        line-height: 30px;
+    }
+
+    .tests h5 {
+        font-size: large;
+        margin-top: -15px;
+    }
+
+    #poste {
+        font-size: small;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .art {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 375px;
+    }
+
+    #lait, #oeuf, #cone, #sucre {
+        background-position: center;
+    }
+
+    footer {
+        height: 350px;
+        justify-content: space-around;
+    }
+
+    .asp a {
+        font-size: large;
+    }
+
+}

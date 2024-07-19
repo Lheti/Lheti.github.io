@@ -1,0 +1,55 @@
+
+body {
+    background-color: darkslategray;
+}
+
+nav {
+background-color: cadetblue;
+height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+img {
+width: 60px;
+height: 60px;
+}
+
+.liensnav {
+    background-color:#eac5ff;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    background-color:darkgray;
+    width: 100%;
+    height:88vh;
+    display: flex;
+}
+
+.mainleft {
+    /* background-color: lightpink; */
+    background-image: url('./images/gaming-pattern.webp');
+    width: 50%;
+    height: 100%;
+}
+
+.mainright {
+    /* background-color:lightskyblue; */
+    background-image: url('./images/playstation-pattern.png');
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .mainleft {
+        background-image: url('./images/sakura.webp');
+    }
+
+    .mainright {
+        background-image: url('./images/blue-snow.webp');
+    }
+}
