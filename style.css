@@ -351,13 +351,30 @@ p {
 }
 
 .minipic {
-    background-image: url('./images/pins/feminazgul\ \(1\).png');
+    /* background-image: url('./images/pins/feminazgul\ \(1\).png'); */
     width: 100px;
     height: 100px;
     background-size: contain;
     border-radius: 10px;
     border: solid 3px #E0F9FE;
 }
+
+#pic1 {
+    background-image: url('./images/pins/feminazgul\ \(1\).png');
+}
+
+#pic2 {
+    background-image: url('./images/pins/DSC_0289\ copie.png');
+}
+
+#pic3 {
+    background-image: url('./images/pins/DSC_0290\ copie.png');
+}
+
+#pic4 {
+    background-image: url('./images/pins/jean.png');
+}
+
 
 .desc {
     padding-left: 50px;
@@ -388,7 +405,7 @@ p {
     width: auto;
     height: auto;
     padding: 10px 15px 15px 15px;
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 2em;
     letter-spacing: 3px;
     font-family: "New Romantics";
